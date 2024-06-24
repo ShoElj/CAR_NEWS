@@ -1,0 +1,28 @@
+/* src/components/BentoGrid.css */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.bento-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.bento-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.bento-details {
+  padding: 10px;
+}
+.bento-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+.bento-details p {
+  margin: 0.5em 0 0;
+  color: #666;
+}
